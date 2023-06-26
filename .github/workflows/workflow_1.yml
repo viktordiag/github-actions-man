@@ -1,8 +1,9 @@
-name: workflow-1
+name: workflow_1
 on: workflow_dispatch
 jobs:
   print:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
       - name: Print text
         run: echo Hello!
+        
