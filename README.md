@@ -20,6 +20,7 @@
 ### `runs-on:` среда в которой запускается задание ***jobs*** ###
 - `runs-on: ubuntu_latest` запускает ubuntu последней версии
 ### `steps:` имя шага ###
+`steps: first-step`
 ***jobs*** может состоять из нескольких шагов
 ### `- name:` произвольное имя шага ###
 `- name: Print to console`
