@@ -2,7 +2,7 @@
 создаём директорию .github/workflow \
 в этой директории будут хранится файлы YAML `file_name.yml` с описанием рабочего процесса
 
-***структура***
+***структура описания workflow***
 - name: Print
 - on: workflow_dispatch
 - jobs:
