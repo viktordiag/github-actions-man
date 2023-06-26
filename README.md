@@ -1,13 +1,13 @@
 # github-actions-man  
 ***структура***
-- name:
-- on:
+- name: Print
+- on: workflow_dispatch
 - jobs:
   - ***IDjobs***:
-    - runs_on:
+    - runs_on: ubuntu_latest
     - steps:
-      - \- name:
-        - run:
+      - \- name: Print to console
+        - run: echo Hello GitHub Actions
 
 ### `name:` имя рабочего процесса ###
 ### `on:`  триггер запускающий рабочий процесс ###
@@ -23,5 +23,6 @@
 ***jobs*** может состоять из нескольких шагов
 ### `- name:` произвольное имя шага ###
 `- name: Print to console`
+### `run:` действие которое необходимо выполнить  ###
 
 
