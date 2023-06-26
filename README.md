@@ -25,9 +25,9 @@
 `- name: Print to console`
 ### `run:` действие которое необходимо выполнить  ###
 позволяет ввести несколько команд
-```run: \|
+`run: |
   echo first line
-  echo second line```
+  echo second line`
 
 
 
