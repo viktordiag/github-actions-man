@@ -1,5 +1,5 @@
 # github-actions-man  
-структура \
+**структура** \
 name: \
 on: \
 jobs: <br>
