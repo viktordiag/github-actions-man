@@ -1,9 +1,13 @@
-name: workflow_1
-on: workflow_dispatch
-jobs:
-  print:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Print text
-        run: echo Hello!
+name: workflow_1 # название рабочего процесса
+on: workflow_dispatch # событие при котором запускается рабочий процесс
+jobs: # список заданий
+  print: # название задания
+    runs-on: ubuntu-latest # среда в которой запускается задание
+    steps: # шаги из которых состоит задание
+      - name: Print text # имя шага
+        run: echo Hello! # действие которое выполняется на этом шаге
+      - name: Print two strings # имя второго шага
+        run: | # с помощью вертикальной черты можно последовательно выполнить несколько строк кода
+          echo First_string
+          echo Second_string
         
