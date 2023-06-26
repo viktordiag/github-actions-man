@@ -7,7 +7,7 @@
 - on: workflow_dispatch
 - jobs:
   - ***IDjobs***:
-    - runs_on: ubuntu_latest
+    - runs-on: ubuntu-latest
     - steps:
       - \- name: Print to console
         - run: echo Hello GitHub Actions
@@ -21,7 +21,7 @@
 ### `IDjobs:` имя задания ###
 произвольное имя задания ***jobs*** может использоваться как идентификатор задания при составлении сценариев
 ### `runs-on:` среда в которой запускается задание ***jobs*** ###
-- `runs-on: ubuntu_latest` запускает ubuntu последней версии
+- `runs-on: ubuntu-latest` запускает ubuntu последней версии
 ### `steps:` далее перечисляем шаги ###
 ***jobs*** может состоять из нескольких шагов
 ### `- name:` произвольное имя шага ###
