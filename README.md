@@ -6,7 +6,7 @@
   - ***IDjobs***:
     - runs_on:
     - steps:
-      - - name:
+      - \- name:
         - run:
 
 ### `name:` имя рабочего процесса ###
