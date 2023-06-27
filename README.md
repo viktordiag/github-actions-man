@@ -38,6 +38,8 @@ run: |
   echo first line
   echo second line
 ```
+### `uses:` запускает actions ###
+
 
 
 
