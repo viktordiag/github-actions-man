@@ -13,8 +13,8 @@
     - steps:
       - \- name: Print to console
         - run: echo Hello GitHub Actions
-      - name: checkout repo
-        uses: actions/checkout@v3
+      - \- name: checkout repo
+        - uses: actions/checkout@v3
 
 ### `name:` имя рабочего процесса ###
 ### `on:`  триггер запускающий рабочий процесс ###
