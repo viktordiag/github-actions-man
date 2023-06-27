@@ -10,4 +10,5 @@ jobs: # список заданий
       - run: | # с помощью вертикальной черты можно последовательно выполнить несколько строк кода
           echo First_string
           echo Second_string
+          make say-hello
         
