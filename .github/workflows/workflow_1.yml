@@ -11,6 +11,6 @@ jobs: # список заданий
           echo First_string
           echo Second_string
       - name: checkout repo
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
       - run: make say-hello
         
